@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "error_path": "Xəta: Zəhmət olmasa bir fayl və ya qovluq yolu qeyd edin.",
+    "example_usage": "Nümunə: node bin/cli.js -f -l src/",
+    "inspecting": "Yoxlanılır",
+    "suggestion": "Təklif",
+    "line": "SƏTİR",
+    "link": "KEÇİD",
+    "violation_code": "POZUNTU EDƏN KOD",
+    "code_snippet": "KOD PARÇASI",
+    "success": "✅ Təbriklər! Memarlıq Standartlarına 100% Uyğunluq.",
+    "violations_found": "🚨 Qayda Pozuntuları Aşkar Edildi. Təfərrüatlar üçün əmrin sonuna -f əlavə edin.",
+    "scan_complete": "🚨 Yoxlama tamamlandı. Zəhmət olmasa yuxarıdakı pozuntuları düzəldin.",
+    "violations_count": "pozuntu"
+  },
+  "rules": {
+    "no_table": "MEMARLIQ: <table> istifadəsi qadağandır. CSS Grid və ya Flexbox istifadə edin.",
+    "no_i18n_fallback": "TƏRCÜMƏ: Fallback (??) istifadə edilib. Tərcümələr yalnız i18n fayllarından gəlməlidir!",
+    "no_hardcoded_colors": "MÖVZU: Hardcoded Tailwind rəngi tapıldı! Semantik dəyişənlərdən istifadə edin.",
+    "no_click_on_non_interactive": "A11Y: div və ya span üzərinə klik (on:click) verilə bilməz! <button type=\"button\"> istifadə edin.",
+    "no_svelte_ignore": "TƏHLÜKƏSİZLİK: 'svelte-ignore' qaçışı aşkar edildi! Qaydalara uyğun kod yazın.",
+    "no_console_log": "TƏMİZLİK: console.log unudulub! İstehsala (Production) log yazıla bilməz.",
+    "no_static_inline_style": "MEMARLIQ: Statik Inline style istifadəsi qadağandır! Tailwind class-larına keçirin.",
+    "no_magic_numbers": "MÖVZU: Sehrli Rəqəm (Magic Number) tapıldı. Standart Tailwind ölçülərindən istifadə edin.",
+    "no_v3_tailwind_vars": "MÖVZU: Köhnə Tailwind v3 yazılışı istifadə edilib. v4 standartı istifadə edin.",
+    "missing_skeleton": "ƏKSİK COMPONENT: Səhifədə yüklənmə var amma Skeleton ŞABLON İÇİNDƏ İSTİFADƏ EDİLMƏYİB!",
+    "missing_i18n_import": "ƏKSİK IMPORT: i18n 't' funksiyası import edilməyib!"
+  }
+}

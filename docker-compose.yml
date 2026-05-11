@@ -1,0 +1,9 @@
+services:
+  auralint_dev:
+    image: node:20-alpine
+    container_name: aura_lint_dev
+    working_dir: /app
+    volumes:
+      - .:/app
+    # Keep the container running to allow for development and testing
+    command: tail -f /dev/null

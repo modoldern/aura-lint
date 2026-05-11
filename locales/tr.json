@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "error_path": "Hata: Lütfen bir dosya veya klasör yolu belirtin.",
+    "example_usage": "Örnek: node bin/cli.js -f -l src/",
+    "inspecting": "Denetleniyor",
+    "suggestion": "Öneri",
+    "line": "SATIR",
+    "link": "BAĞLANTI",
+    "violation_code": "İHLAL EDEN KOD",
+    "code_snippet": "KOD KESİTİ",
+    "success": "✅ Tebrikler! Mimari Standartlara %100 Uyum.",
+    "violations_found": "🚨 Kural İhlalleri Tespit Edildi. Detaylar için komutun sonuna -f ekleyin.",
+    "scan_complete": "🚨 Tarama tamamlandı. Lütfen yukarıdaki ihlalleri düzeltin.",
+    "violations_count": "ihlal"
+  },
+  "rules": {
+    "no_table": "MİMARİ: <table> kullanımı yasaktır. Lütfen CSS Grid veya Flexbox kullanın.",
+    "no_i18n_fallback": "ÇEVİRİ: Fallback (??) kullanılmış. Çeviriler sadece i18n dosyalarından gelmelidir!",
+    "no_hardcoded_colors": "TEMA: Hardcoded Tailwind rengi bulundu! Lütfen semantik değişkenleri kullanın.",
+    "no_click_on_non_interactive": "A11Y: div veya span üzerine tıklama (on:click) verilemez! <button type=\"button\"> kullanın.",
+    "no_svelte_ignore": "GÜVENLİK: 'svelte-ignore' kaçışı tespit edildi! Kurallara uygun kod yazın.",
+    "no_console_log": "TEMİZLİK: console.log unutulmuş! Üretime (Production) log basılamaz.",
+    "no_static_inline_style": "MİMARİ: Statik Inline style (style=\"...\") yasaktır! Tailwind class'larına taşıyın.",
+    "no_magic_numbers": "TEMA: Sihirli Rakam (Magic Number) bulundu. Standart Tailwind ölçülerini kullanın.",
+    "no_v3_tailwind_vars": "TEMA: Eski Tailwind v3 yazımı kullanılmış. Lütfen v4 (parantezli) yapıyı kullanın.",
+    "missing_skeleton": "EKSİK COMPONENT: Sayfada yükleme durumu var ama Skeleton TEMPLATE İÇİNDE KULLANILMAMIŞ!",
+    "missing_i18n_import": "EKSİK IMPORT: i18n 't' fonksiyonu import edilmemiş!"
+  }
+}

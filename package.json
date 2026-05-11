@@ -1,0 +1,13 @@
+{
+  "name": "aura-lint",
+  "version": "1.0.0",
+  "description": "A universal UI architecture and Tailwind QA tool.",
+  "main": "bin/cli.js",
+  "type": "module",
+  "bin": {
+    "aura-lint": "./bin/cli.js"
+  },
+  "keywords": ["linter", "ui", "tailwind", "qa", "architecture"],
+  "author": "Senin Adın",
+  "license": "MIT"
+}

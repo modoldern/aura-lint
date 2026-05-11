@@ -1,0 +1,17 @@
+{
+  "must_not_have": [
+    { "id": "no_table", "pattern": "<table\\b" },
+    { "id": "no_i18n_fallback", "pattern": "\\$t\\(['\"][^'\"]+['\"]\\)\\s*\\?\\?" },
+    { "id": "no_hardcoded_colors", "pattern": "\\b(bg|text|border|ring|shadow)-(red|blue|green|yellow|amber|emerald|slate|gray|zinc|neutral|stone|orange|lime|teal|cyan|sky|indigo|violet|purple|fuchsia|pink|rose)-\\d{2,4}\\b" },
+    { "id": "no_click_on_non_interactive", "pattern": "<(div|span)[^>]*\\bon:click" },
+    { "id": "no_svelte_ignore", "pattern": "\\<\\!\\-\\-\\s*svelte-ignore" },
+    { "id": "no_console_log", "pattern": "console\\.log\\(" },
+    { "id": "no_static_inline_style", "pattern": "\\bstyle=\"[^\"{]+\"" },
+    { "id": "no_magic_numbers", "pattern": "\\b(w|h|m|p|gap|top|left|right|bottom|text|min-w|min-h|max-w|max-h)-\\[\\d+(px|rem|em)\\]" },
+    { "id": "no_v3_tailwind_vars", "pattern": "\\[var\\(--[a-zA-Z0-9-]+\\)\\]" }
+  ],
+  "must_have": [
+    { "id": "missing_skeleton", "pattern": "<Skeleton\\b" },
+    { "id": "missing_i18n_import", "pattern": "import \\{\\s*t\\s*\\} from [\"']\\$lib/i18n[\"']" }
+  ]
+}

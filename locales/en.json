@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "error_path": "Error: Please specify a file or directory path.",
+    "example_usage": "Example: node bin/cli.js -f -l src/",
+    "inspecting": "Inspecting",
+    "suggestion": "Suggestion",
+    "line": "LINE",
+    "link": "LINK",
+    "violation_code": "VIOLATING CODE",
+    "code_snippet": "CODE SNIPPET",
+    "success": "✅ Congratulations! 100% Compliance with Architecture Standards.",
+    "violations_found": "🚨 Rule violations detected. Add -f flag for details.",
+    "scan_complete": "🚨 Scan complete. Please fix the violations above.",
+    "violations_count": "violations"
+  },
+  "rules": {
+    "no_table": "ARCHITECTURE: <table> usage is forbidden. Please use CSS Grid or Flexbox.",
+    "no_i18n_fallback": "I18N: Fallback (??) used. Translations must strictly come from i18n files!",
+    "no_hardcoded_colors": "THEME: Hardcoded Tailwind color found! Please use semantic variables.",
+    "no_click_on_non_interactive": "A11Y: on:click cannot be applied to div or span! Use <button type=\"button\">.",
+    "no_svelte_ignore": "SECURITY: 'svelte-ignore' escape detected! Write compliant code.",
+    "no_console_log": "CLEANLINESS: console.log left behind! Cannot log to production.",
+    "no_static_inline_style": "ARCHITECTURE: Static Inline style usage is forbidden! Move to Tailwind classes.",
+    "no_magic_numbers": "THEME: Magic Number found. Use standard Tailwind spacing/sizing.",
+    "no_v3_tailwind_vars": "THEME: Old Tailwind v3 syntax used. Please use v4 syntax.",
+    "missing_skeleton": "MISSING COMPONENT: Loading state exists but Skeleton is NOT USED!",
+    "missing_i18n_import": "MISSING IMPORT: i18n 't' function is not imported!"
+  }
+}
