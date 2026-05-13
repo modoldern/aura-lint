@@ -1,6 +1,6 @@
 {
   "name": "aura-lint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A universal UI architecture and Tailwind QA tool.",
   "main": "bin/cli.js",
   "type": "module",
